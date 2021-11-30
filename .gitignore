@@ -1,3 +1,6 @@
 # Replit packaging files
 .replit
 main.sh
+
+# VSCode plugins
+.vscode

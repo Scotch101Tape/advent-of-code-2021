@@ -3,6 +3,6 @@ mkdir day-$1
 
 cd ./day-$1
 touch input.txt
-touch solution.txt
 
-echo 'print("Hello World")' > main.py
+echo 'input = open("input.txt", "r")' > part-1.py
+echo 'input = open("input.txt", "r")' > part-2.py

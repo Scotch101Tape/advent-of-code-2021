@@ -9,4 +9,4 @@ To run these you must have python and bash available. Use the command
 ```
 bash scripts/run.sh [day number] [part number]
 ```
-to run code from solutions.
+to run code from the solutions directory.

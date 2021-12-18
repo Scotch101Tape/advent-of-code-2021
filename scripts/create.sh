@@ -1,3 +1,5 @@
+# This script creates an Advent of Code directory for the day specified
+
 if [ ${#1} -gt 1 ]
 then
     day_num=$1

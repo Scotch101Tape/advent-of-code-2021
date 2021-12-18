@@ -23,9 +23,7 @@ class BigCave(Cave):
 
 # Search for paths in a cave
 def cave_search(cave, total_path = [], doubled = False):
-    #if True:
-    #    print(list(map(lambda x: x.name, total_path + [cave])))
-    # There is always the path that just stays in the cave
+    # The paths in the search
     paths = 0
 
     # Edge case with end

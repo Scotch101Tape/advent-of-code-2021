@@ -9,4 +9,9 @@ fi
 
 cd ./solutions/day-$day_num
 
-python part-$2.py
+if ( test -f "part-$2.py"; )
+then
+    python part-$2.py
+else
+    julia part-$2.jl
+fi

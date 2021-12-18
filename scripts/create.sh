@@ -13,5 +13,11 @@ mkdir day-$day_num
 cd ./day-$day_num
 touch input.txt
 
-echo 'input = open("input.txt", "r")' > part-1.py
-echo 'input = open("input.txt", "r")' > part-2.py
+if [ $2 == "python" ]
+then
+    echo 'input = open("input.txt", "r")' > part-1.py
+    echo 'input = open("input.txt", "r")' > part-2.py;
+else
+    echo 'input = open("input.txt")' > part-1.jl
+    echo 'input = open("input.txt")' > part-2.jl
+fi

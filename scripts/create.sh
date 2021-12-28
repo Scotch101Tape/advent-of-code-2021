@@ -15,9 +15,15 @@ touch input.txt
 
 if [ $2 == "python" ]
 then
-    echo 'input = open("input.txt", "r")' > part-1.py
+    echo 'input = open("input.txt", "r")' > part-1.py;
     echo 'input = open("input.txt", "r")' > part-2.py;
+elif [ $2 == "julia" ] 
+then
+    echo 'input = open("input.txt")' > part-1.jl;
+    echo 'input = open("input.txt")' > part-2.jl;
 else
-    echo 'input = open("input.txt")' > part-1.jl
-    echo 'input = open("input.txt")' > part-2.jl
+    mkdir part-1
+    mkdir part-2
+    cargo init ./part-1
+    cargo init ./part-2
 fi

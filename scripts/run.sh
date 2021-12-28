@@ -12,6 +12,10 @@ cd ./solutions/day-$day_num
 if ( test -f "part-$2.py"; )
 then
     python part-$2.py
-else
+elif ( test -f "part-$2.jl"; )
+then
     julia part-$2.jl
+else
+    cd ./part-$2
+    cargo run
 fi

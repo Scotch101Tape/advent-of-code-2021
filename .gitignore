@@ -4,3 +4,10 @@ main.sh
 
 # VSCode plugins
 .vscode
+
+# Rust stuff
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb

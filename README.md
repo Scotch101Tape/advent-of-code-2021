@@ -10,3 +10,7 @@ To run these you must have python, bash, julia, and cargo on path. Use the comma
 bash scripts/run.sh [day number] [part number]
 ```
 to run code from the solutions directory.
+
+## Note
+
+This repository is archived as I have finished all the days for the 2021 Advent of Code.
